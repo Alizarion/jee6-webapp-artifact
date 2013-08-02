@@ -330,7 +330,7 @@
                     <filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
 
                     <!-- FIX for intelliJ exploded deployment -->
-                    <webappDirectory>target/IngressDefence-exploded.war</webappDirectory>
+                    <webappDirectory>target/MyProject.war</webappDirectory>
                 </configuration>
             </plugin>
         </plugins>

@@ -249,10 +249,10 @@
     </session-config>
 
     <!-- productionParam -->
-    <!--persistence-context-ref>
-        <persistence-context-ref-name>em</persistence-context-ref-name>
-        <persistence-unit-name>ingressPU</persistence-unit-name>
-    </persistence-context-ref-->
+    <persistence-context-ref>
+        <persistence-context-ref-name>persistence/em</persistence-context-ref-name>
+        <persistence-unit-name>myProjectPU</persistence-unit-name>
+    </persistence-context-ref>
     <error-page>
         <error-code>404</error-code>
         <location>/index.html</location>
